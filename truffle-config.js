@@ -1,7 +1,7 @@
 const path = require("path");
-require("dotenv").config({path:  "./.env"});
+require("dotenv").config({path: "./.env"});
 const HDWalletProvider = require("@truffle/hdwallet-provider");
-const AccountIndex = 0;
+const MetaMaskAccountIndex = 0;
 
 
 module.exports = {
@@ -12,11 +12,11 @@ module.exports = {
     develop: {
       port: 7545,
       host: "127.0.0.1",
-      network_id: 5777
+      network_id: "*"
     },
     ganache_local: {
       provider: function() {
-        return new HDWalletProvider(process.env.MNEMONIC, "http://127.0.0.1:7545", AccountIndex)
+        return new HDWalletProvider(process.env.MNEMONIC, "http://127.0.0.1:7545", MetaMaskAccountIndex )
       },
       network_id: 5777
     }
