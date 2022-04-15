@@ -2895,61 +2895,15 @@
     "version": "0.8.1+commit.df193b15.Emscripten.clang"
   },
   "networks": {
-    "5": {
-      "events": {
-        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "previousOwner",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "newOwner",
-              "type": "address"
-            }
-          ],
-          "name": "OwnershipTransferred",
-          "type": "event"
-        }
-      },
-      "links": {},
-      "address": "0x9be3A957FB87622DE131d473C03eBc5cec441136",
-      "transactionHash": "0xe9e8291025944f4e7cd3e902c6233f02a68e760a7a73372efaa3862fd31f3ce0"
-    },
     "5777": {
-      "events": {
-        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "previousOwner",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "newOwner",
-              "type": "address"
-            }
-          ],
-          "name": "OwnershipTransferred",
-          "type": "event"
-        }
-      },
+      "events": {},
       "links": {},
-      "address": "0x791af282A7da800fdC91B2d226651c34377eD8DE",
-      "transactionHash": "0x5d5e1abda411b7016b079b30051ab973622e7682b3b5a25e57892dba42be549c"
+      "address": "0xB701d9c76848fd4433501972E322171E7224F5CB",
+      "transactionHash": "0xc9edeecf65c1c692c35fcd4e20214562c2d4b1469880b6e38e58b055d7c42296"
     }
   },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2022-04-10T10:20:02.830Z",
+  "updatedAt": "2022-04-15T07:08:31.395Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
